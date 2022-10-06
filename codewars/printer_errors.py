@@ -10,5 +10,23 @@
 # control string. Don't reduce this fraction to a simpler expression.
 # The string has a length greater or equal to one and contains only letters from ato z.
 
+
+def printer_error(s):
+    bad_string = 'nopqrstuvwxyz'
+    ls = []
+    for bad_char in bad_string:
+        ls.append(s.count(bad_char))
+    errors = sum(ls)
+    print(f"{errors}/{len(s)}")
+    return f"{errors}/{len(s)}"
+
+
+printer_error('aaaxbbbbyyhwawiwjjjwwm')
+
+#  best solution
+# from re import sub
 # def printer_error(s):
-#     # your code
+#     return "{}/{}".format(len(sub("[a-m]",'',s)),len(s))
+#
+# def printer_error(s):
+#     return "{}/{}".format(len([x for x in s if x not in "abcdefghijklm"]), len(s))
