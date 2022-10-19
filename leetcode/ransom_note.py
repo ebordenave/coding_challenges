@@ -9,10 +9,19 @@
 #     def get_magazine(self):
 #         return self.magazine
 
+
 def canConstruct(ransomNote: str, magazine: str) -> bool:
+    TrueOrFalse = 0
     for _ in magazine:
+        # print(_)
         if _ not in ransomNote:
-            return False
+            TrueOrFalse -= 1
+        else:
+            TrueOrFalse += 1
+    if TrueOrFalse > 0:
+        return True
+    else:
+        return False
 
 
 canConstruct(ransomNote='aa', magazine='ab')
