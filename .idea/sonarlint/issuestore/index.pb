@@ -9,8 +9,6 @@ M
 codewars/returning_strings.py,a\7\a772c8fa7aee54514502f86dbada19f3d05c5c88
 F
 codewars/spin_words.py,3\8\384c77477909234a18b617db825ac472fcd21191
-J
-leetcode/reduce_to_zero.py,6\f\6fd2e0b4bc53b58b4148e0f2498d35fb987e8203
 C
 leetcode/two_sum.py,c\5\c5cdb83c0afa4f4703d7a7ebd081e243b63d6974
 R
@@ -21,3 +19,21 @@ J
 codewars/printer_errors.py,b\5\b531f13afea0d798a2157ecf896aee51712ee64c
 I
 codewars/friend_or_foe.py,8\1\8134db3b70b5d152c350e169f2cbe41ff01d6919
+w
+G.idea/sonarlint/issuestore/3/8/384c77477909234a18b617db825ac472fcd21191,e\c\ec59da9fd8eca007baabc46736e4e9daca5f85da
+w
+G.idea/sonarlint/issuestore/f/1/f1bdda93d9a278e358509d498e17d97764c1fb29,0\e\0e659b6dc067a9e8d729848985fb11903f7a88d8
+w
+G.idea/sonarlint/issuestore/e/a/eaef1fe79ed2e8017b97a3bfbca5f14c9754e961,c\9\c9c56adb69739863c66979645d71a5ed3e42b75f
+w
+G.idea/sonarlint/issuestore/c/5/c5cdb83c0afa4f4703d7a7ebd081e243b63d6974,6\e\6e3e0be2839ddc9eeb1ed1d3fa706ca9fa71d4d4
+w
+G.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,6\e\6e9644ddf83ab52f39902ecdbfdf4118285ac40c
+w
+G.idea/sonarlint/issuestore/b/5/b531f13afea0d798a2157ecf896aee51712ee64c,f\e\fed12c74017dd295365ae0e78fd007a44a55aaa0
+w
+G.idea/sonarlint/issuestore/8/1/8134db3b70b5d152c350e169f2cbe41ff01d6919,3\1\311c988b7d2191fc437c8d82686a7d6cab9e0650
+w
+G.idea/sonarlint/issuestore/1/e/1e9075f5bf079c01ef2c910709e91a497d262080,2\5\2511a7590eb091d560dac1615e6bcef0ceeaffb6
+K
+codewars/break_camelcase.py,e\6\e681f3308c97761584731806cb2c25578d1f2751
