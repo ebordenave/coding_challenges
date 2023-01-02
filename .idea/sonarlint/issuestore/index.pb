@@ -43,3 +43,7 @@ K
 leetcode/383_ransom_note.py,f\a\fa160aaf52a2f9308278cf9bda9963a795f44e18
 I
 leetcode/412_fizz_buzz.py,8\b\8b2ad9609b9a2d261feeac5b8774e01d095f89d8
+I
+codewars/reverse_words.py,8\8\8848edf7aae878b97706de7068c6234a62c1b164
+H
+codewars/stray_number.py,d\4\d47ffbacc980dac086ab57a2157a05735fca75c7
