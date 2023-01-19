@@ -16,3 +16,15 @@
 # s2 = 'star'
 
 # print(anagrams(s1,s2))
+
+def pop_first(self, value):
+    if self.length == 0:
+        return None
+    
+    temp = self.head
+    self.head = self.head.next
+    temp.next = None
+    self.length -= 1
+
+
+        
