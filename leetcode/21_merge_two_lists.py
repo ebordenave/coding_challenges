@@ -7,8 +7,8 @@ def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) ->
         
         # while list1 and list2 are not empty
         # if list1 value is less than list2 value
-        # tail pointer will point to list 1
-        # list1 will be assigned the next pointer
+        # tail.next pointer will point to list 1
+        # list1 will be assigned its next pointer
         # else the tail next pointer will be list2
         
         while list1 and list2:
