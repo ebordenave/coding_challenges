@@ -1,10 +1,6 @@
-class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        prev, curr = None, head
+arr = ['1','1','2']
 
-        while curr:
-            nxt = curr.next
-            curr.next = prev
-            prev = curr
-            curr = nxt
-        return prev
+
+
+for i in range(len(arr)):
+    print(i)

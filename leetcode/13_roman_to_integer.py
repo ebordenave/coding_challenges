@@ -9,8 +9,10 @@ def romanToInt(s: str) -> int:
     # then the operation is addition
 
     hashmap = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+    print(len(s))
   
     res = 0
+    print(range(len(s)))
     
     for idx in range(len(s)):
         if idx + 1 < len(s) and hashmap[s[idx]] < hashmap[s[idx+1]]:
@@ -18,6 +20,9 @@ def romanToInt(s: str) -> int:
         else:
             res += hashmap[s[idx]]
     return res
+
+
+
  
             
 s='IV'
