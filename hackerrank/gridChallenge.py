@@ -1,21 +1,22 @@
 def gridChallenge(grid):
-    idx = 0
-    
-    grid_size = len(grid[0])
-    
-    for s in grid:
-        sorted_s = sorted(s)
-        # print(sorted_s)
-        # if sorted_s != s:
-            # print(f" => {sorted_s},{s}")
-    
-    for idx in range(grid_size):
-        for x, y in enumerate(grid[idx]):
-            print(x,y)
-        
+    # Convert each row of the input grid from a string to a list of characters
+    grid = [list(row) for row in grid]
 
+    # Get the number of rows and columns in the grid
+    r = len(grid)
+    c = len(grid[0])
 
+    # Sort each row of the grid in alphabetical order
+    for i in range(r):
+        grid[i].sort()
 
-grid  = ['ebacd', 'fghij', 'olmkn', 'trpqs', 'xywua']
+    # Check if each column of the grid is in non-decreasing order
+    for j in range(c):
+        for i in range(1, r):
+            if not grid[i-1][j] <= grid[i][j]:
+                # If the current element in the current row is less than the corresponding element in the previous row,
+                # the function immediately returns "NO", indicating that the grid is not sorted properly.
+                return "NO"
 
-gridChallenge(grid)
+    # If the function has checked all columns and all rows without returning "NO", it returns "YES", indicating that the grid is sorted properly.
+    return "YES"
